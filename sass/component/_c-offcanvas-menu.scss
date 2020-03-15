@@ -1,0 +1,25 @@
+$component-name: 'c-offcanvas-menu';
+
+.#{$component-name} {
+  align-items: center;
+  background-color: $webfatorial-gray-1;
+  color: $webfatorial-white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transform: translateX(-100%);
+  transition: all $transition-duration-entrance $transition-function-ease-in-expo;
+  width: 100vw;
+
+  &.is-active {
+    transform: none;
+    transition: all $transition-duration-exit $transition-function-ease-out-expo;
+
+    @include breakpoint(medium-up) {
+      transform: translateX(-100%);
+    }
+  }
+}

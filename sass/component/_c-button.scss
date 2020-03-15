@@ -1,0 +1,8 @@
+$component-name: 'c-button';
+
+.#{$component-name} {
+  float: right;
+  margin: rem-calc(10);
+  position: relative;
+  z-index: z-index(above);
+}
