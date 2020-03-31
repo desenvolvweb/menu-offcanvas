@@ -1,22 +1,16 @@
-# Basic Front Boilerplate (BFB)
+# menu-offcanvas
 
-Boilerplate básico para projetos front-end com ênfase em HTML e CSS.
+O menu offcanvas mais fácil do universo. Pode conferir. ;)
 
-## Pré-requisitos
-
-- Node.js
-
-## Uso
-
-Optamos por usar o [Parcel](https://pt.parceljs.org/), que é um bundler que atende ao objetivo do projeto, é rápido e não precisa de configuração. Então, o projeto tem suporte a [Sass](https://sass-lang.com/), suporte a JavaScript moderno com Babel e muitos mais.
+Baseado no [BFB](https://github.com/desenvolvweb/basic-front-boilerplate).
 
 ### Comandos
 
-| Comando         | O que faz?                   | Observação                     |
-| -------------   | -------------                | -----                          |
-| `npm install`   | Instala pacotes necessários  | **Execute isso primeiro!**     |
-| `npm start`     | Inicia o desenvolvimento     | Acesse `http://localhost:1234` |
-| `npm run build` | Faz build do site            | Resultado na pasta `dist`      |
+| Comando         | O que faz?                  | Observação                     |
+| --------------- | --------------------------- | ------------------------------ |
+| `npm install`   | Instala pacotes necessários | **Execute isso primeiro!**     |
+| `npm start`     | Inicia o desenvolvimento    | Acesse `http://localhost:1234` |
+| `npm run build` | Faz build do site           | Resultado na pasta `dist`      |
 
 ### Considerações
 
